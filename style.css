@@ -1,0 +1,77 @@
+.addTarefa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.addTarefa .inputtext {
+    width: 70%;
+    height: 50px;
+    padding: 20px;
+    border-radius: 30px;
+    border-color: transparent;
+    outline: none;
+    margin: 30px;
+    font-family: 'poppins';
+    font-weight: 400;
+
+}
+
+.addTarefa .button {
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(202, 48, 202);
+    box-shadow: 3px 4px 10px  rgb(88, 9, 88);
+}
+
+.addTarefa .button:hover {
+    background-color: rgb(185, 67, 185);
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+
+
+.lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.tarefa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 3px 4px 10px  rgb(88, 9, 88);
+    padding: 20px;
+    width: 50%;
+    height: 60px;
+    margin: 20px;
+}
+
+.tarefa .lixeira {
+    background-color: transparent;
+    border-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    cursor: pointer;
+
+}
