@@ -22,7 +22,7 @@ function mostrarTarefa(){
         NovaTarefa +=  ` 
         <li class="tarefa">
           <p> ${tarefa} </p>
-           <img src="../assets/lixeira-icon.png" alt="lixeira-icon" class="lixeira" onclick="lixeira(${index})">
+           <img src="./assets/lixeira-icon.png" alt="lixeira-icon" class="lixeira" onclick="lixeira(${index})">
        </li>`
     })
 
