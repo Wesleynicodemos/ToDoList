@@ -11,6 +11,14 @@ body {
     font-family: 'poppins' , sans-serif;
 }
 
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
 .addTarefa {
     display: flex;
     flex-direction: column;
